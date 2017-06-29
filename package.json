@@ -1,0 +1,36 @@
+{
+  "name": "Example",
+  "namelower": "example",
+  "version": "0.0.1",
+  "description": "An exampler AngularJS project",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@git.example.com:example.git"
+  },
+  "devDependencies": {
+    "grunt": "",
+    "grunt-contrib-concat": "",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-jshint": "",
+    "grunt-contrib-nodeunit": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "grunt-exec": "",
+    "grunt-jsdoc": "",
+    "grunt-karma": "",
+    "grunt-processhtml": "^0.4.1",
+    "grunt-run": "^0.7.0",
+    "jasmine-core": "",
+    "karma": "",
+    "karma-jasmine": "",
+    "karma-phantomjs-launcher": "",
+    "live-server": "^1.2.0",
+    "load-grunt-config": "^0.19.2"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  }
+}
